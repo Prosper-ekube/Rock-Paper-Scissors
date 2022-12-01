@@ -1,0 +1,55 @@
+body {
+  background-color: tomato;
+}
+
+#rock {
+  background-color: rgb(243, 162, 23);
+  color: black;
+  border-color: rgb(243, 162, 23);
+}
+
+#paper {
+  background-color: white;
+  color: black;
+  margin-left: 10px;
+  border-color: white;
+}
+
+#scissors {
+  background-color: rgb(74, 76, 78);
+  color: black;
+  margin-left: 10px;
+  border-color: rgb(74, 76, 78);
+}
+
+#button_container {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 360px;
+}
+
+button {
+  height: 90px;
+  width: 200px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  border-radius: 6px;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2cm;
+  margin-left: 8cm;
+  margin-top: 0.2cm;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5cm;
+  margin-left: 450px;
+}
+
+.para {
+  font-size: 25px;
+}
